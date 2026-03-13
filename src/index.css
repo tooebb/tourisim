@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neo-bg: #F7F6F2;
+  --color-neo-primary: #8EB35B;
+  --color-neo-dark: #333333;
+  --color-neo-light: #888888;
+}
+
+body {
+  background-color: var(--color-neo-bg);
+  color: var(--color-neo-dark);
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbar for horizontal scrolling areas */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
